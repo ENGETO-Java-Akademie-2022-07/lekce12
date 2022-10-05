@@ -14,4 +14,16 @@ public class CalculatorTest {
 
         Assertions.assertEquals(10, vysledek);
     }
+    
+    @Test
+    public void testAddWithError(){
+        int a = 3;
+        int b = 7;
+
+        Calculator calculator = new Calculator();
+
+        int vysledek = calculator.add(a, b);
+
+        Assertions.assertEquals(0, vysledek);
+    }
 }
