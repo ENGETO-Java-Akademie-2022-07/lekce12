@@ -26,6 +26,7 @@ jobs:
         uses: actions/setup-java@v3.5.1
         with:
           java-version: 15
+          distribution: jdk
 
       - name: Build Java using Maven
         run: mvn clean install
