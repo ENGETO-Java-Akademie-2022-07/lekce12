@@ -17,8 +17,8 @@ public class CalculatorTest {
     
     @Test
     public void testAddWithError(){
-        int a = 3;
-        int b = 7;
+        int a = -3;
+        int b = 3;
 
         Calculator calculator = new Calculator();
 
